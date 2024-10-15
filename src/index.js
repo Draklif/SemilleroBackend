@@ -12,6 +12,17 @@ app.get('/data', ( request, response ) => {
     response.send(dataArr)
 })
 
+app.get('/data/:id', (request, response) => {
+    const projectId = parseInt(request.params.id);
+    const project = dataArr.projects.find(proj => proj.id === projectId);
+
+    if (!project) {
+        return response.status(404).send({ message: 'Project not found' });
+    }
+
+    response.send(project);
+});
+
 app.post('/data', ( request, response ) => {
     const lastProjectId = dataArr.projects.length ? Math.max(...dataArr.projects.map(proj => proj.id)) : 0
     const newProject = { id: lastProjectId + 1, ...request.body }
