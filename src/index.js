@@ -38,7 +38,8 @@ app.get('/data/:id', (request, response) => {
 
 app.post('/data', ( request, response ) => {
     if (!request.auth || !request.auth.user) {
-        return response.status(401).send({ message: 'Unauthorized. Please log in: ' + request });
+        console.log(request);
+        return response.status(401).send({ message: 'Unauthorized. Please log in.'});
     }
 
     const lastProjectId = dataArr.projects.length ? Math.max(...dataArr.projects.map(proj => proj.id)) : 0
