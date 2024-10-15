@@ -16,6 +16,11 @@ app.use("/auth/*", ExpressAuth({ providers: [ Google({
     clientSecret: process.env.AUTH_GOOGLE_SECRET,
 }) ] }))
 
+const handler = ExpressAuth({ providers: [ Google({
+    clientId: process.env.AUTH_GOOGLE_ID,
+    clientSecret: process.env.AUTH_GOOGLE_SECRET,
+}) ] })
+
 app.get('/data', ( request, response ) => {
     response.send(dataArr)
 })
@@ -31,7 +36,7 @@ app.get('/data/:id', (request, response) => {
     response.send(project);
 });
 
-app.post('/data', ( request, response ) => {
+app.post('/data', handler, ( request, response ) => {
     const lastProjectId = dataArr.projects.length ? Math.max(...dataArr.projects.map(proj => proj.id)) : 0
     const newProject = { id: lastProjectId + 1, ...request.body }
     
