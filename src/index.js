@@ -1,12 +1,20 @@
 import express from 'express'
 import cors from 'cors'
 import data from './data.json' assert { type: 'json' }
+import Google from "@auth/express/providers/google"
+import { ExpressAuth } from '@auth/express'
 
 const dataArr = data
 const app = express()
 
 app.use(express.json())
 app.use(cors('*'))
+
+app.set("trust proxy", true)
+app.use("/auth/*", ExpressAuth({ providers: [ Google({
+    clientId: process.env.AUTH_GOOGLE_ID,
+    clientSecret: process.env.AUTH_GOOGLE_SECRET,
+}) ] }))
 
 app.get('/data', ( request, response ) => {
     response.send(dataArr)
