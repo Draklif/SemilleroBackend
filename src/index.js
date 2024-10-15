@@ -3,6 +3,31 @@ import cors from 'cors'
 import data from './data.json' assert { type: 'json' }
 import Google from "@auth/express/providers/google"
 import { ExpressAuth } from '@auth/express'
+import { OAuth2Client } from 'google-auth-library'
+
+async function verifyGoogleToken(token) {
+    const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+    
+    try {
+      const ticket = await client.verifyIdToken({
+        idToken: token,
+        audience: process.env.GOOGLE_CLIENT_ID,
+      });
+      
+      const payload = ticket.getPayload();
+      const userid = payload['sub'];
+      
+      return {
+        isValid: true,
+        userId: userid,
+        email: payload['email'],
+        name: payload['name']
+      };
+    } catch (error) {
+      console.error('Error verifying token:', error);
+      return { isValid: false, error: error.message };
+    }
+  }
 
 const dataArr = data
 const app = express()
@@ -36,7 +61,14 @@ app.get('/data/:id', (request, response) => {
     response.send(project);
 });
 
-app.post('/data', ( request, response ) => {
+app.post('/data', async ( request, response ) => {
+    const token = req.headers.authorization.split(' ')[1];
+    const result = await verifyGoogleToken(token);
+
+    if (!result.isValid) {
+        return res.status(401).json({ error: 'Invalid token' });
+    }
+    
     if (!request.auth || !request.auth.user) {
         console.log(request);
         return response.status(401).send({ message: 'Unauthorized. Please log in.'});
