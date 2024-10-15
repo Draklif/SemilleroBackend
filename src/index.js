@@ -1,8 +1,6 @@
 import express from 'express'
 import cors from 'cors'
 import data from './data.json' assert { type: 'json' }
-import Google from "@auth/express/providers/google"
-import { ExpressAuth } from '@auth/express'
 import { OAuth2Client } from 'google-auth-library'
 
 async function verifyGoogleToken(token) {
@@ -27,24 +25,29 @@ async function verifyGoogleToken(token) {
       console.error('Error verifying token:', error);
       return { isValid: false, error: error.message };
     }
-  }
+}
+
+const validate = async ( request, response, next ) => {
+    const token = request.headers.authorization?.split(' ')[1];
+
+    if (!token) {
+        return response.status(401).send({ message: 'Unauthorized. Please log in.'});
+    }
+
+    const result = await verifyGoogleToken(token);
+
+    if (!result.isValid) {
+        return response.status(401).json({ error: 'Invalid token' });
+    }
+
+    next()
+}
 
 const dataArr = data
 const app = express()
 
 app.use(express.json())
 app.use(cors('*'))
-
-app.set("trust proxy", true)
-app.use("/auth/*", ExpressAuth({ providers: [ Google({
-    clientId: process.env.AUTH_GOOGLE_ID,
-    clientSecret: process.env.AUTH_GOOGLE_SECRET,
-}) ] }))
-
-const handler = ExpressAuth({ providers: [ Google({
-    clientId: process.env.AUTH_GOOGLE_ID,
-    clientSecret: process.env.AUTH_GOOGLE_SECRET,
-}) ] })
 
 app.get('/data', ( request, response ) => {
     response.send(dataArr)
@@ -61,19 +64,7 @@ app.get('/data/:id', (request, response) => {
     response.send(project);
 });
 
-app.post('/data', async ( request, response ) => {
-    const token = req.headers.authorization.split(' ')[1];
-    const result = await verifyGoogleToken(token);
-
-    if (!result.isValid) {
-        return res.status(401).json({ error: 'Invalid token' });
-    }
-    
-    if (!request.auth || !request.auth.user) {
-        console.log(request);
-        return response.status(401).send({ message: 'Unauthorized. Please log in.'});
-    }
-
+app.post('/data', validate, ( request, response ) => {
     const lastProjectId = dataArr.projects.length ? Math.max(...dataArr.projects.map(proj => proj.id)) : 0
     const newProject = { id: lastProjectId + 1, ...request.body }
     
@@ -81,7 +72,7 @@ app.post('/data', async ( request, response ) => {
     response.send({ message: 'Project added', project: newProject })
 })
 
-app.delete('/data/:id', ( request, response ) => {
+app.delete('/data/:id', validate, ( request, response ) => {
     const projectId = parseInt(request.params.id)
     const projectIndex = dataArr.projects.findIndex(proj => proj.id === projectId)
 
@@ -94,7 +85,7 @@ app.delete('/data/:id', ( request, response ) => {
     response.send({ message: 'Project deleted' })
 })
 
-app.put('/data/:id', (request, response) => {
+app.put('/data/:id', validate, (request, response) => {
     const projectId = parseInt(request.params.id)
     const projectIndex = dataArr.projects.findIndex(proj => proj.id === projectId)
 
