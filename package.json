@@ -2,9 +2,10 @@
   "name": "semillerobackend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
@@ -17,5 +18,8 @@
     "cors": "^2.8.5",
     "express": "^4.21.0",
     "google-auth-library": "^9.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
