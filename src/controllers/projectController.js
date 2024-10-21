@@ -19,7 +19,7 @@ export const addProject = (req, res) => {
   const lastProjectId = dataArr.projects.length
     ? Math.max(...dataArr.projects.map(proj => proj.id))
     : 0;
-  const newProject = { id: lastProjectId + 1, ...req.body };
+  const newProject = { id: lastProjectId + 1, ...req.body, id: lastProjectId + 1 };
   dataArr.projects.push(newProject);
   res.send({ message: 'Project added', project: newProject });
 };
