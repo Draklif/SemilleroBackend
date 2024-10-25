@@ -8,7 +8,7 @@
             "authors": [{"name": "Ana"}, {"name": "Luis"}],
             "tags": ["AR", "Educación"],
             "format": [],
-            "images": ["https://i.pinimg.com/564x/70/27/62/7027625242a9e6cd34eaa850677da6b1.jpg", "https://i.pinimg.com/564x/76/70/0d/76700dc56a00c20c19e88fcc90bf1e77.jpg", "https://i.pinimg.com/564x/3c/7c/a0/3c7ca0378e2c7d434863a5e841354c2e.jpg", "https://i.pinimg.com/564x/cc/71/8c/cc718cb991bbdb40e3c95c562406018f.jpg"],
+            "images": ["https://i.pinimg.com/564x/70/27/62/7027625242a9e6cd34eaa850677da6b1.jpg", "https://i.pinimg.com/564x/76/70/0d/76700dc56a00c20c19e88fcc90bf1e77.jpg", "https://i.pinimg.com/564x/3c/7c/a0/3c7ca0378e2c7d434863a5e841354c2e.jpg", "https://i.pinimg.com/564x/cc/71/8c/cc718cb991bbdb40e3c95c562406018f.jpg", "https://i.pinimg.com/564x/56/cd/c7/56cdc70589d9efe30ce3887c277772d9.jpg"],
             "links": ["https://github.com/anarh", "https://instagram.com/luis_dev"],
             "desc_long": "Este proyecto utiliza realidad aumentada para mostrar reconstrucciones de lugares históricos en tiempo real, permitiendo a los usuarios explorar el pasado mientras caminan por la ciudad."
         },
@@ -20,7 +20,7 @@
             "authors": [{"name": "Carlos"}, {"name": "Elena"}],
             "tags": ["VR", "Simulación"],
             "format": [],
-            "images": ["https://i.pinimg.com/564x/e2/f0/e9/e2f0e90bb6216be29cecbbbc07103899.jpg", "https://i.pinimg.com/736x/fd/02/1c/fd021cd9f4408d399b21a787ef7a6cd2.jpg", "https://i.pinimg.com/564x/5d/8e/8f/5d8e8f6a6767f6de6a42807579d8c4d4.jpg", "https://i.pinimg.com/564x/f7/8b/87/f78b87084845de2d483848b8bf7477f3.jpg"],
+            "images": ["https://i.pinimg.com/564x/e2/f0/e9/e2f0e90bb6216be29cecbbbc07103899.jpg", "https://i.pinimg.com/736x/fd/02/1c/fd021cd9f4408d399b21a787ef7a6cd2.jpg", "https://i.pinimg.com/564x/5d/8e/8f/5d8e8f6a6767f6de6a42807579d8c4d4.jpg", "https://i.pinimg.com/564x/f7/8b/87/f78b87084845de2d483848b8bf7477f3.jpg", "https://i.pinimg.com/564x/e0/67/ec/e067ecfd8a2097fcd325be4356828c44.jpg"],
             "links": ["https://github.com/carlitoz", "https://linkedin.com/elena-gomez"],
             "desc_long": "Una experiencia de VR inmersiva que permite a los usuarios navegar por el espacio profundo y observar planetas, nebulosas y otros cuerpos celestes en 3D."
         },
@@ -128,7 +128,7 @@
             "authors": [{"name": "Ricardo"}, {"name": "Marta"}],
             "tags": ["Simulación", "Ciencia"],
             "format": [],
-            "images": ["clima1.png", "clima2.png"],
+            "images": ["https://i.pinimg.com/564x/04/12/4f/04124f368adb127f0368337b65853c90.jpg", "https://i.pinimg.com/564x/c0/61/7e/c0617efddfa965d7ec2eee507e008258.jpg"],
             "links": ["https://github.com/ricardoclima"],
             "desc_long": "Simulador interactivo que modela el impacto de gases de efecto invernadero en el clima global, permitiendo observar cambios en diferentes escenarios."
         },
@@ -140,7 +140,7 @@
             "authors": [{"name": "Sofia"}, {"name": "Raúl"}],
             "tags": ["Literatura", "Educación"],
             "format": [],
-            "images": ["libros1.png", "libros2.png"],
+            "images": ["https://i.pinimg.com/564x/91/b5/9d/91b59d3366043df77a1e13a8a8e11483.jpg"],
             "links": ["https://biblioteca-literaria.com"],
             "desc_long": "Una biblioteca digital que ofrece acceso a libros clásicos y modernos, con secciones para leer en línea y recomendaciones personalizadas."
         },
@@ -152,7 +152,7 @@
             "authors": [{"name": "Andrés"}, {"name": "Mariana"}],
             "tags": ["Educación", "Streaming"],
             "format": [],
-            "images": ["clase1.png", "clase2.png"],
+            "images": ["https://i.pinimg.com/564x/d8/b6/25/d8b6256c3cf5ecc2db435e79679d3cba.jpg", "https://i.pinimg.com/564x/6d/e6/b7/6de6b7cc6ec6b1f4dba1f14725029777.jpg"],
             "links": ["https://clase-online.com"],
             "desc_long": "Plataforma de educación que ofrece cursos en formato de video, con clases interactivas y materiales descargables para estudiantes de todas las edades."
         },
@@ -164,7 +164,7 @@
             "authors": [{"name": "Julia"}],
             "tags": ["Audio", "Edición"],
             "format": [],
-            "images": ["audio1.png", "audio2.png"],
+            "images": ["https://i.pinimg.com/564x/d1/04/75/d104751cff020ba2d060f8f394d7e0c0.jpg"],
             "links": ["https://audio-editor.com"],
             "desc_long": "Un editor de audio en línea que permite realizar tareas como recortar, ajustar niveles de volumen y agregar efectos básicos, todo desde el navegador."
         },
@@ -176,7 +176,7 @@
             "authors": [{"name": "Fernanda"}, {"name": "Pedro"}],
             "tags": ["Salud", "Relajación"],
             "format": [],
-            "images": ["meditacion1.png", "meditacion2.png"],
+            "images": ["https://i.pinimg.com/564x/36/bf/72/36bf725ea78530fbec2d63528ff711da.jpg"],
             "links": ["https://relaxapp.com"],
             "desc_long": "Aplicación de meditación guiada con sesiones de audio diseñadas para ayudar a los usuarios a reducir el estrés y mejorar el enfoque en sus rutinas diarias."
         },
@@ -188,7 +188,7 @@
             "authors": [{"name": "Verónica"}, {"name": "Pablo"}],
             "tags": ["Moda", "Sostenibilidad"],
             "format": [],
-            "images": ["moda1.png", "moda2.png"],
+            "images": ["https://i.pinimg.com/564x/75/70/7c/75707cfd9a54611c67b1eca9c7b07124.jpg", "https://i.pinimg.com/564x/f8/f8/7e/f8f87ea160219d431b75b7664678dd29.jpg"],
             "links": ["https://modasostenible.com"],
             "desc_long": "Plataforma de ecommerce dedicada a la moda sostenible, ofreciendo ropa producida éticamente y con materiales ecológicos."
         },
@@ -200,7 +200,7 @@
             "authors": [{"name": "Lina"}, {"name": "Jorge"}],
             "tags": ["Educación", "Matemáticas"],
             "format": [],
-            "images": ["matematicas1.png", "matematicas2.png"],
+            "images": ["https://i.pinimg.com/564x/8a/9e/32/8a9e32b3d3de20fb6c51003b41f90bd8.jpg"],
             "links": ["https://matematikids.com"],
             "desc_long": "Aplicación móvil que ayuda a los niños a mejorar sus habilidades matemáticas mediante juegos y ejercicios interactivos adaptados a diferentes niveles."
         },
@@ -212,7 +212,7 @@
             "authors": [{"name": "Diana"}, {"name": "Sergio"}],
             "tags": ["Salud", "Productividad"],
             "format": [],
-            "images": ["habitos1.png", "habitos2.png"],
+            "images": ["https://i.pinimg.com/564x/64/16/4f/64164f8f1c7235f94f4b44dc42450d23.jpg"],
             "links": ["https://habitosalud.com"],
             "desc_long": "App de control de hábitos que permite a los usuarios organizar sus actividades diarias, establecer recordatorios y monitorear su progreso hacia una vida más saludable."
         },
@@ -224,7 +224,7 @@
             "authors": [{"name": "Rosa"}, {"name": "Ignacio"}],
             "tags": ["Hogar", "Tecnología"],
             "format": [],
-            "images": ["jardineria1.png", "jardineria2.png"],
+            "images": ["https://i.pinimg.com/736x/23/81/42/23814237bc90d8fcb9eef1974afbca1f.jpg"],
             "links": ["https://jardininteligente.com"],
             "desc_long": "Aplicación para jardinería que permite a los usuarios monitorear la salud de sus plantas mediante sensores conectados, recibiendo recomendaciones en tiempo real."
         },
@@ -236,7 +236,7 @@
             "authors": [{"name": "Hugo"}, {"name": "Camila"}],
             "tags": ["Creatividad", "IA"],
             "format": [],
-            "images": ["historias1.png", "historias2.png"],
+            "images": ["https://i.pinimg.com/736x/a0/14/68/a01468d75a804eb6100ebcfe2bffa02d.jpg"],
             "links": ["https://historiasia.com"],
             "desc_long": "Generador que utiliza inteligencia artificial para crear historias cortas a partir de temas o palabras clave, perfecto para escritores en busca de inspiración."
         },
