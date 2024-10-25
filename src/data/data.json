@@ -1,724 +1,364 @@
 {
-    "projects" : [
+    "projects": [
         {
-            "id" : 1,
-            "name" : "Modelo Universidad de Boyaca",
-            "desc_short" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas feugiat ex nec dapibus. Sed neque odio, sollicitudin non luctus a, feugiat sit amet orci. Integer ornare lacus nec rutrum ornare. Integer sem neque, egestas sed commodo in, accumsan a est.",
-            "date" : "01-02-2024",
-            "authors" : [
-                { "name": "Jose" },
-                { "name": "Julian" }
-            ],
-            "tags" : ["VR", "Ayuda"],
-            "format" : [""],
-            "images" : ["Default.png", "vite.svg", "Image.png", "vite.svg", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas feugiat ex nec dapibus. Sed neque odio, sollicitudin non luctus a, feugiat sit amet orci. Integer ornare lacus nec rutrum ornare. Integer sem neque, egestas sed commodo in, accumsan a est. Donec bibendum felis a massa blandit, dignissim imperdiet dolor sodales. Praesent facilisis mauris eget lorem laoreet ultricies. Pellentesque sed elit eu massa lacinia commodo non et felis. Aenean diam turpis, volutpat id libero maximus, fermentum venenatis leo.<br><br>Vestibulum risus dolor, malesuada eget pulvinar non, vulputate in ligula. Fusce vitae magna dictum, laoreet mi sit amet, accumsan massa. Nulla tincidunt augue quis nisl lacinia pulvinar. In augue quam, vulputate sit amet dignissim a, posuere eu nulla. Etiam luctus magna sem, sed sodales magna laoreet sit amet. Praesent placerat volutpat sem at pretium. Donec lacinia eleifend gravida.<br><br>Curabitur condimentum tortor et erat consequat aliquet. Integer efficitur varius vulputate. Cras sem purus, laoreet eget vehicula eu, finibus ut justo. Nunc porttitor efficitur leo, vitae porttitor velit condimentum interdum. Sed ut elit ante. Sed vehicula ex mauris, ac iaculis elit vehicula et. Donec bibendum egestas porttitor. Suspendisse vulputate elit in erat scelerisque, et tristique urna tincidunt. Duis placerat gravida ex et varius. Curabitur aliquet est a ornare sollicitudin. Aenean vel malesuada ipsum. Cras sollicitudin malesuada massa in convallis. Integer mi sapien, maximus eu orci quis, bibendum placerat ipsum. Etiam sit amet facilisis metus, a luctus urna. Praesent gravida mattis purus suscipit porttitor.<br><br>Suspendisse vel vehicula ligula. Nullam aliquam eu libero vitae rhoncus. Sed dignissim egestas nibh, non vulputate neque iaculis ut. Sed condimentum aliquam justo. Maecenas vel molestie ex, quis cursus mi. Proin nulla nulla, tempor id maximus nec, efficitur ac enim. Aliquam non dapibus urna. Nam congue risus in sem aliquam dictum. Praesent eget arcu et ligula eleifend vestibulum in quis diam.<br><br>Duis eros ipsum, tincidunt at ligula et, malesuada suscipit libero. Mauris tristique augue at nisi pulvinar, sed luctus velit pulvinar. Integer eu erat in mauris condimentum accumsan. Sed ipsum quam, condimentum at mauris non, tincidunt ullamcorper lacus. Maecenas vestibulum neque in ultrices molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec risus enim. Vestibulum vitae eros vestibulum, rhoncus nibh at, consequat eros. Quisque tincidunt nec justo sed hendrerit. Integer egestas consectetur euismod. Morbi luctus lorem eget purus aliquam, nec tempor nisl varius. Proin dignissim neque tincidunt dapibus fermentum."
+            "id": 1,
+            "name": "Exploración AR en Ciudad Histórica",
+            "desc_short": "App AR para guiar en sitios históricos.",
+            "date": "02-03-2024",
+            "authors": [{"name": "Ana"}, {"name": "Luis"}],
+            "tags": ["AR", "Educación"],
+            "format": ["app"],
+            "images": ["historia1.png", "historia2.png"],
+            "links": ["https://github.com/anarh", "https://instagram.com/luis_dev"],
+            "desc_long": "Este proyecto utiliza realidad aumentada para mostrar reconstrucciones de lugares históricos en tiempo real, permitiendo a los usuarios explorar el pasado mientras caminan por la ciudad."
         },
         {
-            "id" : 2,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 2,
+            "name": "VR Espacio Profundo",
+            "desc_short": "Explora el cosmos en realidad virtual.",
+            "date": "10-04-2024",
+            "authors": [{"name": "Carlos"}, {"name": "Elena"}],
+            "tags": ["VR", "Simulación"],
+            "format": ["VR"],
+            "images": ["espacio1.png", "espacio2.png"],
+            "links": ["https://github.com/carlitoz", "https://linkedin.com/elena-gomez"],
+            "desc_long": "Una experiencia de VR inmersiva que permite a los usuarios navegar por el espacio profundo y observar planetas, nebulosas y otros cuerpos celestes en 3D."
         },
         {
-            "id" : 3,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 3,
+            "name": "Simulador de Química",
+            "desc_short": "Simula reacciones químicas complejas.",
+            "date": "15-05-2024",
+            "authors": [{"name": "Mario"}, {"name": "Lucia"}],
+            "tags": ["Simulación", "Educación"],
+            "format": ["software"],
+            "images": ["quimica1.png", "quimica2.png"],
+            "links": ["https://quimicasim.edu"],
+            "desc_long": "Un simulador que permite a los estudiantes realizar experimentos de química sin riesgo, usando fórmulas precisas para representar reacciones en un laboratorio virtual."
         },
         {
-            "id" : 4,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Test"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 4,
+            "name": "Generador de Arte Abstracto",
+            "desc_short": "Genera patrones y colores aleatorios.",
+            "date": "20-06-2024",
+            "authors": [{"name": "Roberto"}],
+            "tags": ["Generador", "Arte"],
+            "format": ["app web"],
+            "images": ["arte1.png", "arte2.png"],
+            "links": ["https://github.com/robertoart"],
+            "desc_long": "Herramienta que permite crear arte abstracto digital con configuraciones personalizables para formas, colores y patrones."
         },
         {
-            "id" : 5,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 5,
+            "name": "Juego de Aventura Textual",
+            "desc_short": "Juego basado en elecciones narrativas.",
+            "date": "01-07-2024",
+            "authors": [{"name": "Sara"}, {"name": "Tomás"}],
+            "tags": ["Juego", "Texto"],
+            "format": ["web"],
+            "images": ["aventura1.png"],
+            "links": ["https://aventura-textual.com"],
+            "desc_long": "Un juego narrativo donde el jugador toma decisiones que afectan el desenlace de la historia, explorando diferentes caminos y finales."
         },
         {
-            "id" : 6,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 6,
+            "name": "Mapa Interactivo de la Tierra",
+            "desc_short": "Datos geográficos en formato interactivo.",
+            "date": "10-08-2024",
+            "authors": [{"name": "Laura"}, {"name": "Diego"}],
+            "tags": ["Interacción", "Geografía"],
+            "format": ["app"],
+            "images": ["mapa1.png", "mapa2.png"],
+            "links": ["https://mapa-interactivo.com"],
+            "desc_long": "Un mapa global interactivo que permite visualizar información detallada sobre diferentes países y regiones, ideal para estudiantes y curiosos de la geografía."
         },
         {
-            "id" : 7,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 7,
+            "name": "Simulador de Tráfico",
+            "desc_short": "Modela dinámicas de tráfico en ciudades.",
+            "date": "25-08-2024",
+            "authors": [{"name": "Esteban"}, {"name": "Luisa"}],
+            "tags": ["Simulación", "Transporte"],
+            "format": ["software"],
+            "images": ["trafico1.png", "trafico2.png"],
+            "links": ["https://github.com/esteban"],
+            "desc_long": "Aplicación de simulación de tráfico en áreas urbanas, ideal para estudios de ingeniería de transporte y análisis de movilidad en grandes ciudades."
         },
         {
-            "id" : 8,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 8,
+            "name": "Red Social de Animales",
+            "desc_short": "Plataforma para conectar a amantes de animales.",
+            "date": "12-09-2024",
+            "authors": [{"name": "Nina"}, {"name": "David"}],
+            "tags": ["Social", "Animales"],
+            "format": ["app móvil"],
+            "images": ["animales1.png", "animales2.png"],
+            "links": ["https://animalconnect.com"],
+            "desc_long": "Una red social exclusiva para compartir y descubrir contenido relacionado con animales, con funcionalidades de adopción y conexión entre usuarios."
         },
         {
-            "id" : 9,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 9,
+            "name": "Guía de Senderismo Interactiva",
+            "desc_short": "Información para excursionistas.",
+            "date": "01-10-2024",
+            "authors": [{"name": "Miguel"}, {"name": "Isabel"}],
+            "tags": ["Guía", "Deporte"],
+            "format": ["app"],
+            "images": ["senderismo1.png"],
+            "links": ["https://senderismoapp.com"],
+            "desc_long": "Aplicación interactiva que ofrece rutas de senderismo con recomendaciones de seguridad, información de los senderos y puntos de interés."
         },
         {
-            "id" : 10,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 10,
+            "name": "Traductor en Lengua de Señas",
+            "desc_short": "App que convierte texto en señas.",
+            "date": "21-11-2024",
+            "authors": [{"name": "Clara"}],
+            "tags": ["Inclusión", "Educación"],
+            "format": ["app"],
+            "images": ["señas1.png", "señas2.png"],
+            "links": ["https://señastraductor.com"],
+            "desc_long": "Aplicación que traduce texto en tiempo real a lengua de señas, facilitando la comunicación para personas sordas."
         },
         {
-            "id" : 11,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 11,
+            "name": "Simulador de Efecto Invernadero",
+            "desc_short": "Simula el cambio climático y sus efectos.",
+            "date": "05-12-2024",
+            "authors": [{"name": "Ricardo"}, {"name": "Marta"}],
+            "tags": ["Simulación", "Ciencia"],
+            "format": ["software"],
+            "images": ["clima1.png", "clima2.png"],
+            "links": ["https://github.com/ricardoclima"],
+            "desc_long": "Simulador interactivo que modela el impacto de gases de efecto invernadero en el clima global, permitiendo observar cambios en diferentes escenarios."
         },
         {
-            "id" : 12,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 12,
+            "name": "Biblioteca Digital de Literatura",
+            "desc_short": "Colección de literatura clásica y moderna.",
+            "date": "10-01-2025",
+            "authors": [{"name": "Sofia"}, {"name": "Raúl"}],
+            "tags": ["Literatura", "Educación"],
+            "format": ["web"],
+            "images": ["libros1.png", "libros2.png"],
+            "links": ["https://biblioteca-literaria.com"],
+            "desc_long": "Una biblioteca digital que ofrece acceso a libros clásicos y modernos, con secciones para leer en línea y recomendaciones personalizadas."
         },
         {
-            "id" : 13,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 13,
+            "name": "Plataforma de Clases en Línea",
+            "desc_short": "Cursos en video de alta calidad.",
+            "date": "25-01-2025",
+            "authors": [{"name": "Andrés"}, {"name": "Mariana"}],
+            "tags": ["Educación", "Streaming"],
+            "format": ["app web"],
+            "images": ["clase1.png", "clase2.png"],
+            "links": ["https://clase-online.com"],
+            "desc_long": "Plataforma de educación que ofrece cursos en formato de video, con clases interactivas y materiales descargables para estudiantes de todas las edades."
         },
         {
-            "id" : 14,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 14,
+            "name": "Editor de Audio en Línea",
+            "desc_short": "Edita audio desde el navegador.",
+            "date": "18-02-2025",
+            "authors": [{"name": "Julia"}],
+            "tags": ["Audio", "Edición"],
+            "format": ["web"],
+            "images": ["audio1.png", "audio2.png"],
+            "links": ["https://audio-editor.com"],
+            "desc_long": "Un editor de audio en línea que permite realizar tareas como recortar, ajustar niveles de volumen y agregar efectos básicos, todo desde el navegador."
         },
         {
-            "id" : 15,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 15,
+            "name": "App de Meditación Guiada",
+            "desc_short": "Sesiones de meditación para la relajación.",
+            "date": "20-03-2025",
+            "authors": [{"name": "Fernanda"}, {"name": "Pedro"}],
+            "tags": ["Salud", "Relajación"],
+            "format": ["app móvil"],
+            "images": ["meditacion1.png", "meditacion2.png"],
+            "links": ["https://relaxapp.com"],
+            "desc_long": "Aplicación de meditación guiada con sesiones de audio diseñadas para ayudar a los usuarios a reducir el estrés y mejorar el enfoque en sus rutinas diarias."
         },
         {
-            "id" : 16,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 16,
+            "name": "Tienda Virtual de Moda Sostenible",
+            "desc_short": "Compra moda ecológica y justa.",
+            "date": "02-04-2025",
+            "authors": [{"name": "Verónica"}, {"name": "Pablo"}],
+            "tags": ["Moda", "Sostenibilidad"],
+            "format": ["app web"],
+            "images": ["moda1.png", "moda2.png"],
+            "links": ["https://modasostenible.com"],
+            "desc_long": "Plataforma de ecommerce dedicada a la moda sostenible, ofreciendo ropa producida éticamente y con materiales ecológicos."
         },
         {
-            "id" : 17,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 17,
+            "name": "Asistente de Matemáticas para Niños",
+            "desc_short": "Ayuda a los niños con problemas matemáticos.",
+            "date": "15-05-2025",
+            "authors": [{"name": "Lina"}, {"name": "Jorge"}],
+            "tags": ["Educación", "Matemáticas"],
+            "format": ["app móvil"],
+            "images": ["matematicas1.png", "matematicas2.png"],
+            "links": ["https://matematikids.com"],
+            "desc_long": "Aplicación móvil que ayuda a los niños a mejorar sus habilidades matemáticas mediante juegos y ejercicios interactivos adaptados a diferentes niveles."
         },
         {
-            "id" : 18,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 18,
+            "name": "Control de Hábitos Saludables",
+            "desc_short": "Organiza y sigue tus hábitos diarios.",
+            "date": "10-06-2025",
+            "authors": [{"name": "Diana"}, {"name": "Sergio"}],
+            "tags": ["Salud", "Productividad"],
+            "format": ["app móvil"],
+            "images": ["habitos1.png", "habitos2.png"],
+            "links": ["https://habitosalud.com"],
+            "desc_long": "App de control de hábitos que permite a los usuarios organizar sus actividades diarias, establecer recordatorios y monitorear su progreso hacia una vida más saludable."
         },
         {
-            "id" : 19,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 19,
+            "name": "Jardinería Inteligente",
+            "desc_short": "Monitorea el estado de tus plantas.",
+            "date": "20-07-2025",
+            "authors": [{"name": "Rosa"}, {"name": "Ignacio"}],
+            "tags": ["Hogar", "Tecnología"],
+            "format": ["app móvil", "IoT"],
+            "images": ["jardineria1.png", "jardineria2.png"],
+            "links": ["https://jardininteligente.com"],
+            "desc_long": "Aplicación para jardinería que permite a los usuarios monitorear la salud de sus plantas mediante sensores conectados, recibiendo recomendaciones en tiempo real."
         },
         {
-            "id" : 20,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 20,
+            "name": "Generador de Historias Cortas",
+            "desc_short": "Crea relatos con IA y creatividad.",
+            "date": "10-08-2025",
+            "authors": [{"name": "Hugo"}, {"name": "Camila"}],
+            "tags": ["Creatividad", "IA"],
+            "format": ["web"],
+            "images": ["historias1.png", "historias2.png"],
+            "links": ["https://historiasia.com"],
+            "desc_long": "Generador que utiliza inteligencia artificial para crear historias cortas a partir de temas o palabras clave, perfecto para escritores en busca de inspiración."
         },
         {
-            "id" : 21,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 21,
+            "name": "Modelo 3D de Casa Medieval",
+            "desc_short": "Casa estilo medieval para videojuegos.",
+            "date": "05-02-2024",
+            "authors": [{"name": "Marcelo"}],
+            "tags": ["3D", "Modelo"],
+            "format": [".fbx", ".obj"],
+            "images": ["casa_medieval.png"],
+            "links": ["https://drive.google.com/casa_medieval"],
+            "desc_long": "Un modelo detallado de una casa medieval, ideal para juegos de rol o simulaciones históricas."
         },
         {
-            "id" : 22,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 22,
+            "name": "Paquete de Texturas de Piedra",
+            "desc_short": "Texturas realistas de piedra.",
+            "date": "20-03-2024",
+            "authors": [{"name": "Ines"}],
+            "tags": ["Textura", "Material"],
+            "format": [".png", ".jpg"],
+            "images": ["textura_piedra.png"],
+            "links": ["https://drive.google.com/texturas_piedra"],
+            "desc_long": "Paquete de texturas de piedra, incluye varias variaciones y mapas de normal, ideal para paredes y suelos."
         },
         {
-            "id" : 23,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 23,
+            "name": "Ilustración Conceptual de Personaje",
+            "desc_short": "Arte conceptual de personaje principal.",
+            "date": "01-04-2024",
+            "authors": [{"name": "Lorena"}],
+            "tags": ["Ilustración", "Concept Art"],
+            "format": [".psd", ".png"],
+            "images": ["personaje_concepto.png"],
+            "links": ["https://drive.google.com/personaje_concepto"],
+            "desc_long": "Ilustración en capas de un personaje de fantasía, ideal para el desarrollo de videojuegos y material promocional."
         },
         {
-            "id" : 24,
-            "name" : "A",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Filtro", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 24,
+            "name": "Animación de Personaje Caminando",
+            "desc_short": "Animación en bucle de caminata.",
+            "date": "15-05-2024",
+            "authors": [{"name": "Javier"}],
+            "tags": ["Animación", "3D"],
+            "format": [".fbx", ".blend"],
+            "images": ["caminar_anim.png"],
+            "links": ["https://drive.google.com/animacion_caminata"],
+            "desc_long": "Animación de ciclo de caminata para personajes humanoides, optimizada para su uso en videojuegos y simulaciones."
         },
         {
-            "id" : 25,
-            "name" : "B",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Filtro"],
-            "format" : [".fbx"],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 25,
+            "name": "Modelo 3D de Árbol Fantasía",
+            "desc_short": "Árbol de estilo fantástico.",
+            "date": "20-06-2024",
+            "authors": [{"name": "Eduardo"}],
+            "tags": ["3D", "Modelo"],
+            "format": [".obj", ".fbx"],
+            "images": ["arbol_fantasia.png"],
+            "links": ["https://drive.google.com/arbol_fantasia"],
+            "desc_long": "Modelo detallado de un árbol con un diseño fantástico, ideal para ambientaciones de bosques mágicos en videojuegos."
         },
         {
-            "id" : 26,
-            "name" : "C",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Filtro", "Other"],
-            "format" : [".fbx"],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 26,
+            "name": "Paquete de Sonidos de Naturaleza",
+            "desc_short": "Sonidos ambientales de bosque y río.",
+            "date": "01-07-2024",
+            "authors": [{"name": "Silvia"}],
+            "tags": ["Audio", "Ambiente"],
+            "format": [".wav", ".mp3"],
+            "images": ["sonidos_naturaleza.png"],
+            "links": ["https://drive.google.com/sonidos_naturaleza"],
+            "desc_long": "Paquete de sonidos de naturaleza, que incluye ambiente de bosque, sonido de ríos, y cantos de pájaros para ambientaciones naturales."
         },
         {
-            "id" : 27,
-            "name" : "D",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Filtro", "Simulación", "Other"],
-            "format" : [".fbx"],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 27,
+            "name": "Shader para Agua Realista",
+            "desc_short": "Shader de agua con movimiento y reflejos.",
+            "date": "15-08-2024",
+            "authors": [{"name": "Carlos"}],
+            "tags": ["Shader", "Efectos"],
+            "format": [".shader", ".mat"],
+            "images": ["shader_agua.png"],
+            "links": ["https://drive.google.com/shader_agua"],
+            "desc_long": "Shader avanzado para representar agua en tiempo real, con efectos de movimiento, transparencia y reflejos personalizables."
         },
         {
-            "id" : 28,
-            "name" : "E",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [".fbx"],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 28,
+            "name": "Iconos de UI para Juegos de Aventura",
+            "desc_short": "Paquete de iconos para interfaz de usuario.",
+            "date": "30-08-2024",
+            "authors": [{"name": "Teresa"}],
+            "tags": ["UI", "Iconos"],
+            "format": [".png", ".svg"],
+            "images": ["iconos_ui.png"],
+            "links": ["https://drive.google.com/iconos_ui"],
+            "desc_long": "Conjunto de iconos diseñados para la interfaz de usuario de juegos de aventura, incluye iconos de inventario, habilidades y navegación."
         },
         {
-            "id" : 29,
-            "name" : "F",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other", "Thing"],
-            "format" : [".obj"],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 29,
+            "name": "Blueprint de IA de Enemigo Patrullando",
+            "desc_short": "Lógica de patrullaje para NPCs enemigos.",
+            "date": "12-09-2024",
+            "authors": [{"name": "Gonzalo"}],
+            "tags": ["Blueprint", "IA"],
+            "format": [".uasset"],
+            "images": ["ia_enemigo.png"],
+            "links": ["https://drive.google.com/ia_enemigo"],
+            "desc_long": "Blueprint de Unreal Engine para implementar la lógica de patrullaje en NPCs enemigos, con configuraciones personalizables para rutas y alertas."
         },
         {
-            "id" : 30,
-            "name" : "G",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Filtro", "Thing"],
-            "format" : [".blend"],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 31,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [".fbx"],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 32,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [".obj"],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 33,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [".blend"],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 34,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [".obhj"],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 35,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [".obx"],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 36,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 37,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 38,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 39,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 40,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 41,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 42,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 43,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 44,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 45,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 46,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 47,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "Other"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
-        },
-        {
-            "id" : 48,
-            "name" : "Otro proyecto",
-            "desc_short" : "Desc",
-            "date" : "07-04-2024",
-            "authors" : [
-                { "name": "Jessica" },
-                { "name": "Daniel" }
-            ],
-            "tags" : ["Videojuego", "Simulación", "A"],
-            "format" : [""],
-            "images" : ["Image.png", "vite.svg", "vite.svg"],
-            "links" : ["https://www.instagram.com/joseman_renteria", "https://github.com/Draklif"],
-            "desc_long" : "Desc long"
+            "id": 30,
+            "name": "Material de Metal Oxidado",
+            "desc_short": "Material realista de metal con óxido.",
+            "date": "20-10-2024",
+            "authors": [{"name": "Daniel"}],
+            "tags": ["Material", "Textura"],
+            "format": [".sbsar", ".png"],
+            "images": ["metal_oxidado.png"],
+            "links": ["https://drive.google.com/metal_oxidado"],
+            "desc_long": "Material Substance para metal oxidado, incluye texturas en alta resolución y ajustes personalizables para el nivel de oxidación."
         }
     ]
 }
