@@ -7,7 +7,7 @@
             "date": "02-03-2024",
             "authors": [{"name": "Ana"}, {"name": "Luis"}],
             "tags": ["AR", "Educación"],
-            "format": ["app"],
+            "format": [],
             "images": ["historia1.png", "historia2.png"],
             "links": ["https://github.com/anarh", "https://instagram.com/luis_dev"],
             "desc_long": "Este proyecto utiliza realidad aumentada para mostrar reconstrucciones de lugares históricos en tiempo real, permitiendo a los usuarios explorar el pasado mientras caminan por la ciudad."
@@ -19,7 +19,7 @@
             "date": "10-04-2024",
             "authors": [{"name": "Carlos"}, {"name": "Elena"}],
             "tags": ["VR", "Simulación"],
-            "format": ["VR"],
+            "format": [],
             "images": ["espacio1.png", "espacio2.png"],
             "links": ["https://github.com/carlitoz", "https://linkedin.com/elena-gomez"],
             "desc_long": "Una experiencia de VR inmersiva que permite a los usuarios navegar por el espacio profundo y observar planetas, nebulosas y otros cuerpos celestes en 3D."
@@ -31,7 +31,7 @@
             "date": "15-05-2024",
             "authors": [{"name": "Mario"}, {"name": "Lucia"}],
             "tags": ["Simulación", "Educación"],
-            "format": ["software"],
+            "format": [],
             "images": ["quimica1.png", "quimica2.png"],
             "links": ["https://quimicasim.edu"],
             "desc_long": "Un simulador que permite a los estudiantes realizar experimentos de química sin riesgo, usando fórmulas precisas para representar reacciones en un laboratorio virtual."
@@ -43,7 +43,7 @@
             "date": "20-06-2024",
             "authors": [{"name": "Roberto"}],
             "tags": ["Generador", "Arte"],
-            "format": ["app web"],
+            "format": [],
             "images": ["arte1.png", "arte2.png"],
             "links": ["https://github.com/robertoart"],
             "desc_long": "Herramienta que permite crear arte abstracto digital con configuraciones personalizables para formas, colores y patrones."
@@ -55,7 +55,7 @@
             "date": "01-07-2024",
             "authors": [{"name": "Sara"}, {"name": "Tomás"}],
             "tags": ["Juego", "Texto"],
-            "format": ["web"],
+            "format": [],
             "images": ["aventura1.png"],
             "links": ["https://aventura-textual.com"],
             "desc_long": "Un juego narrativo donde el jugador toma decisiones que afectan el desenlace de la historia, explorando diferentes caminos y finales."
@@ -67,7 +67,7 @@
             "date": "10-08-2024",
             "authors": [{"name": "Laura"}, {"name": "Diego"}],
             "tags": ["Interacción", "Geografía"],
-            "format": ["app"],
+            "format": [],
             "images": ["mapa1.png", "mapa2.png"],
             "links": ["https://mapa-interactivo.com"],
             "desc_long": "Un mapa global interactivo que permite visualizar información detallada sobre diferentes países y regiones, ideal para estudiantes y curiosos de la geografía."
@@ -79,7 +79,7 @@
             "date": "25-08-2024",
             "authors": [{"name": "Esteban"}, {"name": "Luisa"}],
             "tags": ["Simulación", "Transporte"],
-            "format": ["software"],
+            "format": [],
             "images": ["trafico1.png", "trafico2.png"],
             "links": ["https://github.com/esteban"],
             "desc_long": "Aplicación de simulación de tráfico en áreas urbanas, ideal para estudios de ingeniería de transporte y análisis de movilidad en grandes ciudades."
@@ -91,7 +91,7 @@
             "date": "12-09-2024",
             "authors": [{"name": "Nina"}, {"name": "David"}],
             "tags": ["Social", "Animales"],
-            "format": ["app móvil"],
+            "format": [],
             "images": ["animales1.png", "animales2.png"],
             "links": ["https://animalconnect.com"],
             "desc_long": "Una red social exclusiva para compartir y descubrir contenido relacionado con animales, con funcionalidades de adopción y conexión entre usuarios."
@@ -103,7 +103,7 @@
             "date": "01-10-2024",
             "authors": [{"name": "Miguel"}, {"name": "Isabel"}],
             "tags": ["Guía", "Deporte"],
-            "format": ["app"],
+            "format": [],
             "images": ["senderismo1.png"],
             "links": ["https://senderismoapp.com"],
             "desc_long": "Aplicación interactiva que ofrece rutas de senderismo con recomendaciones de seguridad, información de los senderos y puntos de interés."
@@ -115,7 +115,7 @@
             "date": "21-11-2024",
             "authors": [{"name": "Clara"}],
             "tags": ["Inclusión", "Educación"],
-            "format": ["app"],
+            "format": [],
             "images": ["señas1.png", "señas2.png"],
             "links": ["https://señastraductor.com"],
             "desc_long": "Aplicación que traduce texto en tiempo real a lengua de señas, facilitando la comunicación para personas sordas."
@@ -127,7 +127,7 @@
             "date": "05-12-2024",
             "authors": [{"name": "Ricardo"}, {"name": "Marta"}],
             "tags": ["Simulación", "Ciencia"],
-            "format": ["software"],
+            "format": [],
             "images": ["clima1.png", "clima2.png"],
             "links": ["https://github.com/ricardoclima"],
             "desc_long": "Simulador interactivo que modela el impacto de gases de efecto invernadero en el clima global, permitiendo observar cambios en diferentes escenarios."
@@ -139,7 +139,7 @@
             "date": "10-01-2025",
             "authors": [{"name": "Sofia"}, {"name": "Raúl"}],
             "tags": ["Literatura", "Educación"],
-            "format": ["web"],
+            "format": [],
             "images": ["libros1.png", "libros2.png"],
             "links": ["https://biblioteca-literaria.com"],
             "desc_long": "Una biblioteca digital que ofrece acceso a libros clásicos y modernos, con secciones para leer en línea y recomendaciones personalizadas."
@@ -151,7 +151,7 @@
             "date": "25-01-2025",
             "authors": [{"name": "Andrés"}, {"name": "Mariana"}],
             "tags": ["Educación", "Streaming"],
-            "format": ["app web"],
+            "format": [],
             "images": ["clase1.png", "clase2.png"],
             "links": ["https://clase-online.com"],
             "desc_long": "Plataforma de educación que ofrece cursos en formato de video, con clases interactivas y materiales descargables para estudiantes de todas las edades."
@@ -163,7 +163,7 @@
             "date": "18-02-2025",
             "authors": [{"name": "Julia"}],
             "tags": ["Audio", "Edición"],
-            "format": ["web"],
+            "format": [],
             "images": ["audio1.png", "audio2.png"],
             "links": ["https://audio-editor.com"],
             "desc_long": "Un editor de audio en línea que permite realizar tareas como recortar, ajustar niveles de volumen y agregar efectos básicos, todo desde el navegador."
@@ -175,7 +175,7 @@
             "date": "20-03-2025",
             "authors": [{"name": "Fernanda"}, {"name": "Pedro"}],
             "tags": ["Salud", "Relajación"],
-            "format": ["app móvil"],
+            "format": [],
             "images": ["meditacion1.png", "meditacion2.png"],
             "links": ["https://relaxapp.com"],
             "desc_long": "Aplicación de meditación guiada con sesiones de audio diseñadas para ayudar a los usuarios a reducir el estrés y mejorar el enfoque en sus rutinas diarias."
@@ -187,7 +187,7 @@
             "date": "02-04-2025",
             "authors": [{"name": "Verónica"}, {"name": "Pablo"}],
             "tags": ["Moda", "Sostenibilidad"],
-            "format": ["app web"],
+            "format": [],
             "images": ["moda1.png", "moda2.png"],
             "links": ["https://modasostenible.com"],
             "desc_long": "Plataforma de ecommerce dedicada a la moda sostenible, ofreciendo ropa producida éticamente y con materiales ecológicos."
@@ -199,7 +199,7 @@
             "date": "15-05-2025",
             "authors": [{"name": "Lina"}, {"name": "Jorge"}],
             "tags": ["Educación", "Matemáticas"],
-            "format": ["app móvil"],
+            "format": [],
             "images": ["matematicas1.png", "matematicas2.png"],
             "links": ["https://matematikids.com"],
             "desc_long": "Aplicación móvil que ayuda a los niños a mejorar sus habilidades matemáticas mediante juegos y ejercicios interactivos adaptados a diferentes niveles."
@@ -211,7 +211,7 @@
             "date": "10-06-2025",
             "authors": [{"name": "Diana"}, {"name": "Sergio"}],
             "tags": ["Salud", "Productividad"],
-            "format": ["app móvil"],
+            "format": [],
             "images": ["habitos1.png", "habitos2.png"],
             "links": ["https://habitosalud.com"],
             "desc_long": "App de control de hábitos que permite a los usuarios organizar sus actividades diarias, establecer recordatorios y monitorear su progreso hacia una vida más saludable."
@@ -223,7 +223,7 @@
             "date": "20-07-2025",
             "authors": [{"name": "Rosa"}, {"name": "Ignacio"}],
             "tags": ["Hogar", "Tecnología"],
-            "format": ["app móvil", "IoT"],
+            "format": [],
             "images": ["jardineria1.png", "jardineria2.png"],
             "links": ["https://jardininteligente.com"],
             "desc_long": "Aplicación para jardinería que permite a los usuarios monitorear la salud de sus plantas mediante sensores conectados, recibiendo recomendaciones en tiempo real."
@@ -235,7 +235,7 @@
             "date": "10-08-2025",
             "authors": [{"name": "Hugo"}, {"name": "Camila"}],
             "tags": ["Creatividad", "IA"],
-            "format": ["web"],
+            "format": [],
             "images": ["historias1.png", "historias2.png"],
             "links": ["https://historiasia.com"],
             "desc_long": "Generador que utiliza inteligencia artificial para crear historias cortas a partir de temas o palabras clave, perfecto para escritores en busca de inspiración."
