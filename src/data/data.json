@@ -8,7 +8,7 @@
             "authors": [{"name": "Ana"}, {"name": "Luis"}],
             "tags": ["AR", "Educación"],
             "format": [],
-            "images": ["historia1.png", "historia2.png"],
+            "images": ["https://i.pinimg.com/564x/70/27/62/7027625242a9e6cd34eaa850677da6b1.jpg", "https://i.pinimg.com/564x/76/70/0d/76700dc56a00c20c19e88fcc90bf1e77.jpg", "https://i.pinimg.com/564x/3c/7c/a0/3c7ca0378e2c7d434863a5e841354c2e.jpg", "https://i.pinimg.com/564x/cc/71/8c/cc718cb991bbdb40e3c95c562406018f.jpg"],
             "links": ["https://github.com/anarh", "https://instagram.com/luis_dev"],
             "desc_long": "Este proyecto utiliza realidad aumentada para mostrar reconstrucciones de lugares históricos en tiempo real, permitiendo a los usuarios explorar el pasado mientras caminan por la ciudad."
         },
@@ -20,7 +20,7 @@
             "authors": [{"name": "Carlos"}, {"name": "Elena"}],
             "tags": ["VR", "Simulación"],
             "format": [],
-            "images": ["espacio1.png", "espacio2.png"],
+            "images": ["https://i.pinimg.com/564x/e2/f0/e9/e2f0e90bb6216be29cecbbbc07103899.jpg", "https://i.pinimg.com/736x/fd/02/1c/fd021cd9f4408d399b21a787ef7a6cd2.jpg", "https://i.pinimg.com/564x/5d/8e/8f/5d8e8f6a6767f6de6a42807579d8c4d4.jpg", "https://i.pinimg.com/564x/f7/8b/87/f78b87084845de2d483848b8bf7477f3.jpg"],
             "links": ["https://github.com/carlitoz", "https://linkedin.com/elena-gomez"],
             "desc_long": "Una experiencia de VR inmersiva que permite a los usuarios navegar por el espacio profundo y observar planetas, nebulosas y otros cuerpos celestes en 3D."
         },
@@ -32,7 +32,7 @@
             "authors": [{"name": "Mario"}, {"name": "Lucia"}],
             "tags": ["Simulación", "Educación"],
             "format": [],
-            "images": ["quimica1.png", "quimica2.png"],
+            "images": ["https://i.pinimg.com/564x/58/0f/59/580f5946599668891f49647bf5cb0799.jpg", "https://i.pinimg.com/564x/ae/a3/38/aea33814e14a57bd3f96e881db09c842.jpg", "https://i.pinimg.com/564x/72/09/95/7209959cce4a08ccb2a739da81f3ccf5.jpg", "https://i.pinimg.com/564x/45/21/c4/4521c4916d7aaeb369b306146cf5f7b6.jpg"],
             "links": ["https://quimicasim.edu"],
             "desc_long": "Un simulador que permite a los estudiantes realizar experimentos de química sin riesgo, usando fórmulas precisas para representar reacciones en un laboratorio virtual."
         },
@@ -44,7 +44,7 @@
             "authors": [{"name": "Roberto"}],
             "tags": ["Generador", "Arte"],
             "format": [],
-            "images": ["arte1.png", "arte2.png"],
+            "images": ["https://i.pinimg.com/564x/67/bd/53/67bd536d472618339e489f9e1ef0ddd4.jpg", "https://i.pinimg.com/736x/7d/5a/7d/7d5a7d704967fa8af2f954d018302799.jpg", "https://i.pinimg.com/564x/c1/ca/34/c1ca3493aa05eb6a62a5cdd015f44365.jpg", "https://i.pinimg.com/564x/95/cc/ed/95cced54ebca45194e557dfe8de06faa.jpg"],
             "links": ["https://github.com/robertoart"],
             "desc_long": "Herramienta que permite crear arte abstracto digital con configuraciones personalizables para formas, colores y patrones."
         },
@@ -56,7 +56,7 @@
             "authors": [{"name": "Sara"}, {"name": "Tomás"}],
             "tags": ["Juego", "Texto"],
             "format": [],
-            "images": ["aventura1.png"],
+            "images": ["https://i.pinimg.com/originals/1c/1f/ef/1c1fef34a96b63114291cfdcdf002abb.gif"],
             "links": ["https://aventura-textual.com"],
             "desc_long": "Un juego narrativo donde el jugador toma decisiones que afectan el desenlace de la historia, explorando diferentes caminos y finales."
         },
@@ -68,7 +68,7 @@
             "authors": [{"name": "Laura"}, {"name": "Diego"}],
             "tags": ["Interacción", "Geografía"],
             "format": [],
-            "images": ["mapa1.png", "mapa2.png"],
+            "images": ["https://i.pinimg.com/564x/f5/b8/74/f5b87445ed81499eab49b89f27d3a539.jpg", "https://i.pinimg.com/564x/64/e4/1e/64e41e75313f418c70e5d04fea6a7d22.jpg"],
             "links": ["https://mapa-interactivo.com"],
             "desc_long": "Un mapa global interactivo que permite visualizar información detallada sobre diferentes países y regiones, ideal para estudiantes y curiosos de la geografía."
         },
@@ -80,7 +80,7 @@
             "authors": [{"name": "Esteban"}, {"name": "Luisa"}],
             "tags": ["Simulación", "Transporte"],
             "format": [],
-            "images": ["trafico1.png", "trafico2.png"],
+            "images": ["https://i.pinimg.com/564x/06/3c/08/063c0817660534115d9cf8949e35d75f.jpg", "https://i.pinimg.com/564x/bb/24/fa/bb24fa1e4573db54bc01f0e821ccc789.jpg", "https://i.pinimg.com/564x/a6/32/5a/a6325a5134ef0b4602d46b79e363fb3e.jpg", "https://i.pinimg.com/564x/85/68/ff/8568ff80d7be1b11ca595d68fcdfc459.jpg"],
             "links": ["https://github.com/esteban"],
             "desc_long": "Aplicación de simulación de tráfico en áreas urbanas, ideal para estudios de ingeniería de transporte y análisis de movilidad en grandes ciudades."
         },
@@ -92,7 +92,7 @@
             "authors": [{"name": "Nina"}, {"name": "David"}],
             "tags": ["Social", "Animales"],
             "format": [],
-            "images": ["animales1.png", "animales2.png"],
+            "images": ["https://i.pinimg.com/564x/77/6a/d3/776ad3e33297b31733d04e7ae5d68fad.jpg", "https://i.pinimg.com/564x/dc/be/e5/dcbee5c6db0118766ba67c98e8a9c629.jpg", "https://i.pinimg.com/736x/9a/f4/36/9af43696be0e240365b2d3a90570233d.jpg", "https://i.pinimg.com/564x/a2/94/1f/a2941f55f947539c07903d308a1b4fe2.jpg"],
             "links": ["https://animalconnect.com"],
             "desc_long": "Una red social exclusiva para compartir y descubrir contenido relacionado con animales, con funcionalidades de adopción y conexión entre usuarios."
         },
@@ -105,7 +105,7 @@
             "tags": ["Guía", "Deporte"],
             "format": [],
             "images": ["senderismo1.png"],
-            "links": ["https://senderismoapp.com"],
+            "links": ["https://i.pinimg.com/564x/b1/c3/48/b1c348ab965a4d650cb18359f07f67db.jpg"],
             "desc_long": "Aplicación interactiva que ofrece rutas de senderismo con recomendaciones de seguridad, información de los senderos y puntos de interés."
         },
         {
@@ -116,7 +116,7 @@
             "authors": [{"name": "Clara"}],
             "tags": ["Inclusión", "Educación"],
             "format": [],
-            "images": ["señas1.png", "señas2.png"],
+            "images": ["https://i.pinimg.com/564x/ca/cc/97/cacc974e2e14c01ca558bf959eb113e5.jpg", "https://i.pinimg.com/564x/1e/84/30/1e843055164351006f7addb1586addde.jpg"],
             "links": ["https://señastraductor.com"],
             "desc_long": "Aplicación que traduce texto en tiempo real a lengua de señas, facilitando la comunicación para personas sordas."
         },
