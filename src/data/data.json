@@ -104,7 +104,7 @@
             "authors": [{"name": "Miguel"}, {"name": "Isabel"}],
             "tags": ["Guía", "Deporte"],
             "format": [],
-            "images": ["senderismo1.png"],
+            "images": ["https://i.pinimg.com/564x/b1/c3/48/b1c348ab965a4d650cb18359f07f67db.jpg"],
             "links": ["https://i.pinimg.com/564x/b1/c3/48/b1c348ab965a4d650cb18359f07f67db.jpg"],
             "desc_long": "Aplicación interactiva que ofrece rutas de senderismo con recomendaciones de seguridad, información de los senderos y puntos de interés."
         },
