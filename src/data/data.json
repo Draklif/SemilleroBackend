@@ -248,7 +248,7 @@
             "authors": [{"name": "Marcelo"}],
             "tags": ["3D", "Modelo"],
             "format": [".fbx", ".obj"],
-            "images": ["casa_medieval.png"],
+            "images": ["https://i.pinimg.com/564x/29/52/36/2952368b0993e0eb2725273bce30c4c3.jpg", "https://i.pinimg.com/564x/4d/39/f2/4d39f2fb59d374e3f3dd80859882e474.jpg", "https://i.pinimg.com/736x/48/01/69/48016984b5bc58ff1833723bd31c0995.jpg"],
             "links": ["https://drive.google.com/casa_medieval"],
             "desc_long": "Un modelo detallado de una casa medieval, ideal para juegos de rol o simulaciones históricas."
         },
@@ -260,7 +260,7 @@
             "authors": [{"name": "Ines"}],
             "tags": ["Textura", "Material"],
             "format": [".png", ".jpg"],
-            "images": ["textura_piedra.png"],
+            "images": ["https://i.pinimg.com/564x/43/d7/50/43d75094963aca4817792e30ba9fe07f.jpg", "https://i.pinimg.com/564x/75/d5/f8/75d5f8ce33dc4cceb5e8123214b57a6f.jpg", "https://i.pinimg.com/564x/05/2a/ce/052aced526261f3495ee27c2c8f495ff.jpg", "https://i.pinimg.com/564x/8e/15/db/8e15dbbcf4a96e7d4636d48c9a9e2677.jpg"],
             "links": ["https://drive.google.com/texturas_piedra"],
             "desc_long": "Paquete de texturas de piedra, incluye varias variaciones y mapas de normal, ideal para paredes y suelos."
         },
@@ -272,7 +272,7 @@
             "authors": [{"name": "Lorena"}],
             "tags": ["Ilustración", "Concept Art"],
             "format": [".psd", ".png"],
-            "images": ["personaje_concepto.png"],
+            "images": ["https://i.pinimg.com/564x/61/42/29/6142295cf648d559ef1dc9cfc75d175f.jpg", "https://i.pinimg.com/564x/44/5a/fa/445afa655114a935c9b234828803e962.jpg", "https://i.pinimg.com/564x/74/17/46/741746e26620f6c4d61308a2ffbafd15.jpg", "https://i.pinimg.com/564x/65/43/96/65439610ac505274cca2f908774b0e0e.jpg"],
             "links": ["https://drive.google.com/personaje_concepto"],
             "desc_long": "Ilustración en capas de un personaje de fantasía, ideal para el desarrollo de videojuegos y material promocional."
         },
@@ -284,7 +284,7 @@
             "authors": [{"name": "Javier"}],
             "tags": ["Animación", "3D"],
             "format": [".fbx", ".blend"],
-            "images": ["caminar_anim.png"],
+            "images": ["https://i.pinimg.com/564x/d8/79/83/d879831ae2c39ba70338bf53fc6bc3ea.jpg"],
             "links": ["https://drive.google.com/animacion_caminata"],
             "desc_long": "Animación de ciclo de caminata para personajes humanoides, optimizada para su uso en videojuegos y simulaciones."
         },
@@ -296,7 +296,7 @@
             "authors": [{"name": "Eduardo"}],
             "tags": ["3D", "Modelo"],
             "format": [".obj", ".fbx"],
-            "images": ["arbol_fantasia.png"],
+            "images": ["https://i.pinimg.com/564x/99/57/ee/9957ee25e9f666c27a30834f68dbc7c8.jpg"],
             "links": ["https://drive.google.com/arbol_fantasia"],
             "desc_long": "Modelo detallado de un árbol con un diseño fantástico, ideal para ambientaciones de bosques mágicos en videojuegos."
         },
@@ -308,7 +308,7 @@
             "authors": [{"name": "Silvia"}],
             "tags": ["Audio", "Ambiente"],
             "format": [".wav", ".mp3"],
-            "images": ["sonidos_naturaleza.png"],
+            "images": ["https://i.pinimg.com/564x/04/4d/5c/044d5ccdf316421eee80542724c0d17f.jpg"],
             "links": ["https://drive.google.com/sonidos_naturaleza"],
             "desc_long": "Paquete de sonidos de naturaleza, que incluye ambiente de bosque, sonido de ríos, y cantos de pájaros para ambientaciones naturales."
         },
@@ -320,7 +320,7 @@
             "authors": [{"name": "Carlos"}],
             "tags": ["Shader", "Efectos"],
             "format": [".shader", ".mat"],
-            "images": ["shader_agua.png"],
+            "images": ["https://i.pinimg.com/736x/32/bb/2b/32bb2bce05f9360c121c3e65e557bd4b.jpg"],
             "links": ["https://drive.google.com/shader_agua"],
             "desc_long": "Shader avanzado para representar agua en tiempo real, con efectos de movimiento, transparencia y reflejos personalizables."
         },
@@ -332,7 +332,7 @@
             "authors": [{"name": "Teresa"}],
             "tags": ["UI", "Iconos"],
             "format": [".png", ".svg"],
-            "images": ["iconos_ui.png"],
+            "images": ["https://i.pinimg.com/736x/30/25/83/302583fffda2da9462002c155feec881.jpg"],
             "links": ["https://drive.google.com/iconos_ui"],
             "desc_long": "Conjunto de iconos diseñados para la interfaz de usuario de juegos de aventura, incluye iconos de inventario, habilidades y navegación."
         },
@@ -344,7 +344,7 @@
             "authors": [{"name": "Gonzalo"}],
             "tags": ["Blueprint", "IA"],
             "format": [".uasset"],
-            "images": ["ia_enemigo.png"],
+            "images": ["https://i.pinimg.com/564x/27/a1/d5/27a1d5c05d412511ee4f4bee0b2e948e.jpg"],
             "links": ["https://drive.google.com/ia_enemigo"],
             "desc_long": "Blueprint de Unreal Engine para implementar la lógica de patrullaje en NPCs enemigos, con configuraciones personalizables para rutas y alertas."
         },
@@ -356,7 +356,7 @@
             "authors": [{"name": "Daniel"}],
             "tags": ["Material", "Textura"],
             "format": [".sbsar", ".png"],
-            "images": ["metal_oxidado.png"],
+            "images": ["https://i.pinimg.com/564x/61/f9/f8/61f9f8b8d5498edf67a8ffe7dec25764.jpg"],
             "links": ["https://drive.google.com/metal_oxidado"],
             "desc_long": "Material Substance para metal oxidado, incluye texturas en alta resolución y ajustes personalizables para el nivel de oxidación."
         }
